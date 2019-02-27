@@ -8,6 +8,8 @@ applications:
   - album-database
   - photo-storage
   - movie-fun-sso
+  env:
+    GRANT_TYPE: client_credentials
 - name: movie-service
   path: applications/movie-service/build/libs/movie-service-1.1.0-SNAPSHOT.jar
   routes:
